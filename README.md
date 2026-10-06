@@ -70,7 +70,7 @@ Each case is documented from an analyst perspective, including:
 
 ### Current Cases
 
-**BOTS v1 — Web Vulnerability Scanning**
+**BOTS v1 — Web Vulnerability Scanning (./BOTS-v1-Web-Vulnerability-Scanning/)**
 Investigation of automated web vulnerability scanning using Splunk and Suricata data.
 
 The investigation identified Acunetix WVS activity, correlated web attack detections, and requests targeting potentially sensitive system files. Further analysis determined that the apparent file access was consistent with a Soft 404 response, allowing the incident to be resolved at L1 without evidence of compromise.
