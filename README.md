@@ -33,7 +33,7 @@ My current focus is turning that knowledge into practical SOC experience through
 * Autopsy
 * TheHive
 * Suricata
-* Command-line investigation tools
+* windows/linux
 
 **Platforms & Environments**
 
