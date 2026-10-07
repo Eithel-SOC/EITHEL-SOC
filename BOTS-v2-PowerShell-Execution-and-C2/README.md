@@ -32,5 +32,5 @@ See the [`Evidence/ directory.`](./Evidence/)
 
 ## Report
 
-See [`SOC-Incident-Report 2.pdf`](BOTS-v2-PowerShell-Execution-and-C2/SOC-Incident-Report 2.pdf).
+See [`SOC-Incident-Report 2.pdf`](BOTS-v2-PowerShell-Execution-and-C2/SOC-Incident-Report2.pdf).
 
