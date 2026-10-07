@@ -25,3 +25,12 @@ Immediate endpoint isolation and perimeter IP blocking recommended.
 * Command and Control (C2) network correlation
 * Indicator of Compromise (IoC) extraction
 * L1 incident triage, containment recommendation, and escalation procedures
+
+## Evidence
+
+See the [`Evidence/ directory.`](./Evidence/)
+
+## Report
+
+See [`SOC-Incident-Report 2.pdf`](./SOC-Incident-Report 2.pdf).
+
