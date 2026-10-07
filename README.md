@@ -77,6 +77,12 @@ The investigation identified Acunetix WVS activity, correlated web attack detect
 
 → [`BOTS-v1-Web-Vulnerability-Scanning/`](./BOTS-v1-Web-Vulnerability-Scanning/)
 
+**BOTS v2 — Obfuscated PowerShell Execution & C2 Activity** Investigation of post-exploitation activity, defense evasion, and outbound C2 communication using Splunk and Sysmon telemetry.
+
+The investigation confirmed code execution on an internal host via an obfuscated, Base64-encoded PowerShell command under a service account. Payload deobfuscation revealed in-memory AMSI bypass routines and external download staging, followed by secondary execution of a Python script from a temporary directory. Correlation with Sysmon network events confirmed successful outbound communication to external C2 infrastructure, resulting in immediate containment recommendations and escalation to L2/IR.
+
+→ `BOTS-v2-PowerShell-Execution-and-C2/`
+
 More investigations will be added as I continue building practical SOC experience.
 
 ---
