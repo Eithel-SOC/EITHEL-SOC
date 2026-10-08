@@ -81,7 +81,13 @@ The investigation identified Acunetix WVS activity, correlated web attack detect
 
 The investigation confirmed code execution on an internal host via an obfuscated, Base64-encoded PowerShell command under a service account. Payload deobfuscation revealed in-memory AMSI bypass routines and external download staging, followed by secondary execution of a Python script from a temporary directory. Correlation with Sysmon network events confirmed successful outbound communication to external C2 infrastructure, resulting in immediate containment recommendations and escalation to L2/IR.
 
-→ `BOTS-v2-PowerShell-Execution-and-C2/`
+→ [`BOTS-v2-PowerShell-Execution-and-C2/`](./BOTS-v2-PowerShell-Execution-and-C2/)
+
+**BOTS v2 — Targeted Spear-Phishing Campaign** Investigation of an inbound malicious email campaign and endpoint execution triage using Splunk.
+
+The investigation identified a spear-phishing campaign delivering a password-protected macro-enabled Word document to corporate mailboxes. Further endpoint telemetry analysis confirmed the targeted user opened the document, but Office security controls successfully prevented payload detonation, allowing the incident to be resolved at L1 as an unsuccessful intrusion attempt without evidence of compromise.
+
+→ [SOC-2026-002-Phishing-Incident-Report/](./SOC-2026-002-Phishing-Incident-Report.pdf)
 
 More investigations will be added as I continue building practical SOC experience.
 
