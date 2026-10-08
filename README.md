@@ -103,7 +103,7 @@ All investigations are performed in authorized lab environments or public datase
 
 ## Contact
 
-**LinkedIn:** [Your LinkedIn URL]
+**LinkedIn:** [https://www.linkedin.com/in/eithel-belalcazar-20451727a]
 **Email:** [ebelalcazar99@gmail.com]
 
 I'm currently interested in **Junior SOC Analyst / SOC L1 opportunities**.
