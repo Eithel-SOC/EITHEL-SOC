@@ -87,7 +87,7 @@ The investigation confirmed code execution on an internal host via an obfuscated
 
 The investigation identified a spear-phishing campaign delivering a password-protected macro-enabled Word document to corporate mailboxes. Further endpoint telemetry analysis confirmed the targeted user opened the document, but Office security controls successfully prevented payload detonation, allowing the incident to be resolved at L1 as an unsuccessful intrusion attempt without evidence of compromise.
 
-→ [SOC-2026-002-Phishing-Incident-Report/](./SOC-2026-002-Phishing-Incident-Report.pdf)
+→ [SOC-2026-002-Phishing-Incident-Report/](./SOC-2026-002-Phishing-Incident-Report)
 
 More investigations will be added as I continue building practical SOC experience.
 
