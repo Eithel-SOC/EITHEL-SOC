@@ -21,3 +21,11 @@ Perimeter blocking of source IP `185.83.51.21` and sender domain `urinalysis.com
 * Negative finding validation (Confirming absence of post-exploitation activity)
 * Indicator of Compromise (IoC) extraction & email header forensics
 * SOC L1 incident documentation, reporting, and closure workflow
+
+## Evidence
+
+See the [`Evidence/ directory.`](./Evidence/)
+
+## Report
+
+See [`SOC-2026-002-Phishing-Incident-Report.pdf`](./SOC-2026-002-Phishing-Incident-Report.pdf).
